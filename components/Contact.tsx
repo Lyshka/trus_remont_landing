@@ -10,7 +10,7 @@ const Contact = () => {
       <Container className="flex flex-col xl:gap-[50px] gap-[30px] xl:items-start items-center">
         <Title>Контакты</Title>
 
-        <div className="flex xl:gap-[60px] gap-[30px]">
+        <div className="flex xl:gap-[60px] xl:flex-row flex-col gap-[30px] w-full">
           <ul className="space-y-6 listInfo xl:max-w-[354px] w-full flex-shrink-0">
             <li>
               <span className="title">Телефон</span>

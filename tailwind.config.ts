@@ -8,6 +8,10 @@ const config = {
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
+    screens: {
+      xl: "1200px",
+      md: "768px",
+    },
     colors: {
       black: {
         "1d": "#1D1D1D",
